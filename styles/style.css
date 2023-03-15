@@ -1,7 +1,79 @@
 /* Google Fonts css */
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@500;600;700&display=swap');
 
+/* Common style and utilities */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
 body{
     font-family: 'Bebas Neue', cursive;
     font-family: 'Poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+h1,h3{
+    color: #606d5f;
+}
+p,
+li,
+a,
+button{
+    color: #888888;
+
+}
+p{
+    font-size: 1.8rem;
+    line-height: 150%;
+    font-weight: normal;
+    font-style: normal;
+}
+a{
+    cursor: pointer;
+
+}
+button{
+    padding: 1rem 3rem;
+    border: 2rem;
+    outline: none;
+    text-transform: capitalize;
+    line-height: 3.6rem;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: normal;
+}
+/* header section style */
+header{
+    padding: 0 20rem;
+    width: 100%;
+}
+header nav{
+    height: 12rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav .logo h1{
+    font-size: 3rem;
+
+}
+header nav .menu{
+    display: flex;
+}
+header nav .menu a{
+    margin-left: 4rem;
+}
+header nav .menu a li{
+    font-size: 2rem;
+    line-height: 3.6rem;
+    text-transform: capitalize;
+}
+header nav .menu a li:hover{
+    color: #4b709e;
 }
