@@ -191,7 +191,7 @@ footer p{
 
 
 /* --------Responsive For Laptop--------- */
-@media Only screen and (max-width: 576px){
+@media Only screen and (max-width: 1200px){
     header,
     .hero-section,
     .products-section{
@@ -215,7 +215,7 @@ footer p{
 
 /* --------------Responsive For Ipad Device-------------- */
 
-@media Only screen and(max-width: 900px){
+@media Only screen and (max-width: 900px){
     header,
     .hero-section,
     .products-section{
