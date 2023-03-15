@@ -175,3 +175,13 @@ header nav .menu a li:hover{
     font-size: 1.5rem;
     margin-top: .7rem;
 }
+/* -------- Footer Section style ----------- */
+footer{
+    margin-top: 3rem;
+    font-size: 1rem;
+    background-color: #efefef;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
