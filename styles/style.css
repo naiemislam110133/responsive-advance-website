@@ -190,62 +190,29 @@ footer p{
 }
 
 
-/* -------Responsive For Mobile device----------- */
-@media Only screen and(max-width: 576px){
+/* --------Responsive For Laptop--------- */
+@media Only screen and (max-width: 576px){
     header,
     .hero-section,
     .products-section{
-        padding: 0 5rem;
-    }
-    .hero-section,
-    .products-section{
-        margin-bottom: 12rem;
+        padding: 0 10rem;
     }
     header nav .logo h1{
-        font-size: 2rem;
-    }
-    header nav .menu a{
-        margin-left: 1rem;
-    }
-    header nav .menu a li{
-        font-size: 1.5rem;
-    }
-    .hero-section{
-        flex-direction: column;
-        height: 80vh;
-    }
-    .hero-section .hero-content{
-        order: 2;
-        width: 100%;
+        font-size: 3rem;
     }
     .hero-section .hero-content h1{
-        font-size: 2rem;
-        width: 100%;
-        line-height: 6rem;
-        margin-bottom: 2rem;
+        width: 35rem;
+        font-size: 4rem;
     }
     .hero-section .hero-content p{
-        width: 100%;
-        font-size: 2rem;
-        margin-bottom: 5rem;
-    }
-    .hero-section .hero-img{
-        order: 1;
-        width: 100%;
-    }
-    .products-section h1{
-        font-size: 3rem;
-        margin-bottom: 2rem;
-        line-height: 6rem;
-    }
-    .products-section .products{
-        grid-template-columns: repeat(1, 1fr);
-    }
-    footer P{
-        font-size: 1rem;
+        width: 35rem;
     }
     
+    
 }
+
+
+
 /* --------------Responsive For Ipad Device-------------- */
 
 @media Only screen and(max-width: 900px){
@@ -304,23 +271,62 @@ footer p{
     
 }
 
-/* --------Responsive For Laptop--------- */
-@media Only screen and(max-width: 576px){
+
+/* -------Responsive For Mobile device----------- */
+@media Only screen and (max-width: 576px){
     header,
     .hero-section,
     .products-section{
-        padding: 0 10rem;
+        padding: 0 5rem;
+    }
+    .hero-section,
+    .products-section{
+        margin-bottom: 12rem;
     }
     header nav .logo h1{
-        font-size: 3rem;
+        font-size: 2rem;
+    }
+    header nav .menu a{
+        margin-left: 1rem;
+    }
+    header nav .menu a li{
+        font-size: 1.5rem;
+    }
+    .hero-section{
+        flex-direction: column;
+        height: 80vh;
+    }
+    .hero-section .hero-content{
+        order: 2;
+        width: 100%;
     }
     .hero-section .hero-content h1{
-        width: 35rem;
-        font-size: 4rem;
+        font-size: 2rem;
+        width: 100%;
+        line-height: 6rem;
+        margin-bottom: 2rem;
     }
     .hero-section .hero-content p{
-        width: 35rem;
+        width: 100%;
+        font-size: 2rem;
+        margin-bottom: 5rem;
+    }
+    .hero-section .hero-img{
+        order: 1;
+        width: 100%;
+    }
+    .products-section h1{
+        font-size: 3rem;
+        margin-bottom: 2rem;
+        line-height: 6rem;
+    }
+    .products-section .products{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    footer P{
+        font-size: 1rem;
     }
     
-    
 }
+
+
